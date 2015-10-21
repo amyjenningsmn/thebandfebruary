@@ -1,0 +1,80 @@
+/* General Styles */
+
+body {
+	/* font-family: 'Montserrat', sans-serif; */
+	font-family: 'Quicksand', sans-serif;
+}
+
+.container-fluid {
+	padding-left: 0px;
+    padding-right: 0px;
+}
+
+.container-fluid .jumbotron {
+    border-radius: 0px;
+}
+
+.navbar > .container-fluid .navbar-brand {
+    margin-left: 5px;
+}
+
+.navbar {
+	margin-bottom: 0;
+	background: #B8DBFF; /* light blue */
+	border-radius: 0px;
+}
+
+.navbar-default .navbar-brand {
+    color:#FF33EC; /* deep pink */
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #fff;
+	font-size: 1.2em;
+	padding-left: 20px;
+} /* I took this code from the bootstrap CSS and overwrote */
+
+.navbar-default .navbar-brand:focus, .navbar-default 
+.navbar-brand:hover {
+	background-color: #FF33EC; /* deep pink */
+	color: #fff;
+	/* border-radius: 6px; */
+	transition: background 0.2s ease;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default 
+.navbar-nav > li > a:hover {
+	background-color: #FF33EC; /* deep pink */
+	color: #fff;
+	/* border-radius: 6px; */
+	transition: background 0.2s ease;
+}
+
+.navbar-default .navbar-toggle {
+	margin-right: 30px;
+	border-color: #fff; 
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default 
+.navbar-toggle:hover {
+	background-color: #f990ef; /* light pink */
+	border-color: #f990ef; /* light pink */ 
+}
+
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h2 {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
