@@ -5,6 +5,14 @@ body {
 	font-family: 'Quicksand', sans-serif;
 }
 
+.container-fluid>.navbar-collapse, 
+.container-fluid>.navbar-header, 
+.container>.navbar-collapse, 
+.container>.navbar-header {
+     margin-right: 0px; 
+     margin-left: 0px; 
+}
+
 .container-fluid {
 	padding-left: 0px;
     padding-right: 0px;
@@ -16,7 +24,7 @@ body {
 
 .navbar > .container-fluid .navbar-brand {
     margin-left: 5px;
-}
+} 
 
 .navbar {
 	margin-bottom: 0;
@@ -100,6 +108,7 @@ h3 {
 	text-align: center;
 }
 
+/* index.html */
 
 .headline {
 	text-align: center;
@@ -133,26 +142,36 @@ h3 {
 }
 
 */
-.col-md-3 {
-	padding-left: 0px;
-	padding-right: 0px;
-}
 
 .row {
     margin-right: 0px;
     margin-left: 0px; 
 }
+/*
 
 .links h3 {
-	padding-top: 15px; 	
+	padding-top: 40px; 	
 	margin-bottom: 5px;
 }
 .links p{
 	padding-left: 10px;
 	padding-right: 10px;
 	margin-bottom: 10px;
+} 
+
+.btn-group-sm > .btn, .btn-sm p{
+    text-align: center
+}   */
+.links img {
+	margin-top: 15px;
+}
+.video, .feblife, .connect {
+	text-align: center;
 }
 
+
+
+/*
 .video {
 	height: 300px;
 	width: 100%;
@@ -166,24 +185,9 @@ h3 {
     text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
              0px 8px 13px rgba(0,0,0,0.1),
              0px 18px 23px rgba(0,0,0,0.1);
-}
+} 
 
 .feblife {
-	height: 300px;
-	width: 100%;
-    background: url(../images/setList.png) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    text-align: center;
-    color: #fff;
-    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-             0px 8px 13px rgba(0,0,0,0.1),
-             0px 18px 23px rgba(0,0,0,0.1);
-}
-
-.vault {
 	height: 300px;
 	width: 100%;
     background: url(../images/febVan.png) no-repeat center center scroll;
@@ -198,7 +202,7 @@ h3 {
              0px 18px 23px rgba(0,0,0,0.1);
 }
 
-.contact {
+.connect {
 	height: 300px;
 	width: 100%;
     background: url(../images/febTunnel.png) no-repeat center center scroll;
@@ -211,7 +215,7 @@ h3 {
     text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
              0px 8px 13px rgba(0,0,0,0.1),
              0px 18px 23px rgba(0,0,0,0.1);
-}
+}*/
 
 .footer {
 	background: #B8DBFF; /* light blue */
@@ -265,8 +269,98 @@ h3 {
 	text-shadow: 0px 3px 2px rgba(0,0,0,0.4),
              0px 7px 12px rgba(0,0,0,0.1),
              0px 17px 21px rgba(0,0,0,0.1);
-    font-size: 1em;
+    padding-bottom: 15px;
 }
+
+/* news.html */
+
+.blog {
+	background: #FFE5FF; /* very light pink */
+}
+
+.blog h1 {
+	text-decoration: underline;
+}
+
+.blog h2 {
+	font-size: 1.3em;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+.blog p {
+	text-align: left;
+	font-size: 1.2em;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+
+.figure-caption {
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+
+/* contact.html */
+
+.contact-full{
+background: #FFE5FF; /* very light pink */
+}
+.contact-full img {
+	padding-top: 15px;
+}
+.open h2 {
+	text-transform: none
+}
+/* .contact-full p {
+	font-size: .5em;
+} */
+
+@media (max-width: 480px) {
+	 .container-fluid .contact-full h3
+	 {font-size: 1.1em;}
+}
+
+
+/* music.html */
+
+.music-full .release-date {
+	text-align: center;
+}
+
+.music-full .tracklist ul > li {
+	list-style-type: none;
+}
+
+.music-full img {
+	max-height: 350px;
+	max-width: 350px;
+	padding: 15px;
+}
+
+@media (max-width: 480px) {
+	 .music-full img
+	 	{max-width: 275px;}
+}
+
+/* feblife */
+
+.carousel-caption {
+    bottom: 20px;
+    color: #FF33EC;
+    left: 15%;
+    padding-bottom: 20px;
+    padding-top: 0px;
+    position: static;
+    text-shadow: none;
+}
+
+
+
+
+    
+
+
 
 
 
