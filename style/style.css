@@ -301,7 +301,7 @@ h3 {
 }
 
 
-/* contact.html */
+/* connect.html */
 
 .contact-full{
 background: #FFE5FF; /* very light pink */
@@ -345,6 +345,7 @@ background: #FFE5FF; /* very light pink */
 
 /* feblife */
 
+/* 
 .carousel-caption {
     bottom: 20px;
     color: #FF33EC;
@@ -354,6 +355,55 @@ background: #FFE5FF; /* very light pink */
     position: static;
     text-shadow: none;
 }
+*/
+
+.feb-life-intro p {
+	text-align: center;
+	font-size: 1.5em;
+	color: #f990ef;
+}
+
+.feb-life-intro img {
+	margin-top: 35px;
+}
+
+
+
+.accordion.js > * {
+  overflow: hidden;
+}
+
+.accordion.js > *:not(.expanded) > *:not(h1) {
+  max-height: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.accordion.js > .expanded > *:not(h1) {
+  max-height: 10em;
+  opacity: 1;
+  visibility: visible;
+  text-decoration: none;
+}
+
+.accordion.js > * > h1 {
+  cursor: pointer;
+  visibility: visible;
+}
+
+.accordion.js > * > *:not(h1) {
+    transition: max-height 1s;
+	visibility: 1s;
+    margin: 1s;
+    opacity: 1s;
+}
+.accordion ul {
+	list-style-type: none;
+	text-align: center;
+}
+
 
 
 
