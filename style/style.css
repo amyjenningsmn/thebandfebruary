@@ -345,17 +345,6 @@ background: #FFE5FF; /* very light pink */
 
 /* feblife */
 
-/* 
-.carousel-caption {
-    bottom: 20px;
-    color: #FF33EC;
-    left: 15%;
-    padding-bottom: 20px;
-    padding-top: 0px;
-    position: static;
-    text-shadow: none;
-}
-*/
 
 .feb-life-intro p {
 	text-align: center;
@@ -367,42 +356,10 @@ background: #FFE5FF; /* very light pink */
 	margin-top: 35px;
 }
 
-
-
-.accordion.js > * {
-  overflow: hidden;
+.febGall li {
+list-style-type: none;
 }
 
-.accordion.js > *:not(.expanded) > *:not(h1) {
-  max-height: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  opacity: 0;
-  visibility: hidden;
-}
-
-.accordion.js > .expanded > *:not(h1) {
-  max-height: 10em;
-  opacity: 1;
-  visibility: visible;
-  text-decoration: none;
-}
-
-.accordion.js > * > h1 {
-  cursor: pointer;
-  visibility: visible;
-}
-
-.accordion.js > * > *:not(h1) {
-    transition: max-height 1s;
-	visibility: 1s;
-    margin: 1s;
-    opacity: 1s;
-}
-.accordion ul {
-	list-style-type: none;
-	text-align: center;
-}
 
 
 
