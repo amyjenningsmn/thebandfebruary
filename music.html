@@ -7,7 +7,9 @@
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 		<meta name="Description" content= "The latest music, news and releases from Minneapolis-based band February">
 		<meta name="Keywords" content="February Band Minneapolis">
-		<!-- This will be an icon for the browser bar <link rel=icon href="../favicon.ico">  -->
+		
+		<!-- favicon -->
+		<link rel="icon" href="images/favicon.ico">
 
 		<title>February : The Band </title>
 
@@ -15,15 +17,11 @@
 	  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 	  	<!--This link is for my googlefonts -->
-		<!-- <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> -->
-
 		<link href='https://fonts.googleapis.com/css?family=Quicksand:400,300,700' rel='stylesheet' type='text/css'>
 
 		<!-- Bootstrap -->
     	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
-
-		<!-- Should my custom CSS always be last? -->
 		<link rel="stylesheet" type="text/css" href="style/style.css">
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -34,7 +32,7 @@
     	<![endif]-->
 	</head>
 	<body>
-	<div class="container-fluid"> <!--I did container fluid instead of container because I wanted it to go to fill the screen. 
+	<div class="container-fluid"> 
 	  	
 		<!-- Bootstrap Navbar-->
 		<nav class="navbar navbar-default">
@@ -53,22 +51,24 @@
 			  	 <li><a href="news.html">News</a></li>
 			  	 <li><a href="music.html">Music</a></li>
 			  	 <li><a href="video.html">Video</a></li>
-			  	 <li><a href="feblife.html">FebLife</a></li>
+			  	 <li><a href="gallery.html">Gallery</a></li>
 			  	 <li><a href="connect.html">Connect</a></li>
 			  	</ul>
 			 </div><!--/.navbar-collapse -->
 		    </div><!--/.container-fluid -->
 		</nav>
+
 		<div class="music-full">
-    		<div class="row">
-        		<div class="col-md-6 tomorrow"> <!-- will hold 2 more columns inside it for .tracklist and .credits -->
+    		<div class="row"> 
+		<!--Tomorrow is Today and Even the Night-->
+				<div class="col-md-6 tomorrow"> 
         			<img src="images/music/TomCoverFront.png" class="img-responsive center-block">
 					<h1>Tomorrow is Today</h1>
         			<p class="release-date">Saint Marie Records, 2016 // Carrot Top Records, 1997</p>
  					  	<div class="col-md-6 tracklist">
         				<h2>Tracklist</h2>
         					<ul>
-        					<li>1. Hit Me 	3:25</li>
+        					<li>1. Hit      3:25</li>
         					<li>2. Caught 	4:44</li>
 							<li>3. Slinky 	4:04</li>
 							<li>4. Make A Sound 	2:46</li>
@@ -102,28 +102,74 @@
 							<li>Strings Written and Arranged on “Peacock” by Luc Readinger</li>
 						</div> <!-- /.credits -->
 				</div> <!-- /.tomorrow -->
-				<div class="col-md-6 even-the-night"> <!-- will hold 2 more columns at col-md-6 inside it for .tracklist and .credits -->
+				<div class="col-md-6 even-the-night"> 
         			<img src="images/music/EvenFrontCover.jpg" class="img-responsive center-block">
 					<h1>Even the Night Can't Tell You From a Star</h1>
         			<p class="release-date">Self-released, 1996</p>
  					  	<div class="col-md-6 tracklist">
         				<h2>Tracklist</h2>
+        					<ul>
+							<li>1. Angel Bomb	3:37</li>
+        					<li>2. Inside Blue Glass	4:39</li>
+							<li>3. Afterglow	5:35</li>
+							<li>4. That Girl	3:05</li>
+							<li>5. Comfy	3:34</li>
+							<li>6. Even The Night Can't Tell You From A Star (+ hidden track)	29:52</li>
+							</ul>
+						</div> <!-- /.tracklist-->
+						<div class="col-md-6 credits">
+						<h2>Credits</h2>
+							<ul>
+							<li>Written by February</li>
+							<li>Produced by Richard Werbowenko, February</li>
+							<li>Recorded and Mixed by Richard Werbowenko (Engineer) and Joel Smith (Asst. Engineer) at Third Ear Studio, Minneapolis</li>
+							<li>Mastered by Doug Wild</li>
+							<li>Guitar, Electronics, Knobs and Landscapes: Damian Neubauer</li>
+							<li>Drums, Percussion: Todd Reubold</li>
+							<li>Bass, Bells, Piano: Steven Saari</li>
+							<li>Vocals, Electronics, Keyboards: Amy Turany</li>
+							<li>Flute loops: Julie Kasten</li>
+							</div> <!-- /.credits -->
+				</div> <!-- /.even-the-night -->
+			</div> <!-- /.row -->
+
+		<!--Wale tape and Bliss/Into Red to follow -->
+			<div class="row">
+				<div class="col-md-6 wale-tape"> 
+        			<img src="images/music/WaleCover.jpg" class="img-responsive center-block">
+					<h1>Wale Tape</h1>
+        			<p class="release-date">Self-released, 1996</p>
+ 					  	<div class="col-md-6 tracklist">
+        				<h2>Tracklist</h2>
         					<ol>
-        					<li>Hit Me 	3:25</li>
-        					<li>Caught 	4:44</li>
-							<li>Slinky 	4:04</li>
-							<li>Make A Sound 	2:46</li>
-							<li>Pink Slippers In Anarctica 	3:35</li>
-							<li>Easy 	3:18</li>
-							<li>Soundtracks   3:50</li>
-							<li>Trace 	3:27</li>
-							<li>Riproar 	2:19</li>
-							<li>Slan 	5:36</li> 
-							<li>Swoon 	3:23</li> 
-							<li>Pulse 	6:19</li>
-							<li>Rue Mouffetard 	6:28</li> 
-							<li>Peacock   6:30</li>
+        					<li>Wet Dresses</li>
+        					<li>Souvenir</li>
+							<li>Riproar</li>
 							<ol>
+						</div> <!-- /.tracklist-->
+						<div class="col-md-6 credits">
+						<h2>Credits</h2>
+							<ul>
+							<li>Written by February</li>
+							<li>Recorded by Warn Defever, Livonia, Michigan</li>
+							<li>Mixed by Warn and February</li>
+							<li>Guitar: Damian Neubauer</li>
+							<li>Drums: Todd Reubold</li>
+							<li>Bass: Steven Saari</li>
+							<li>Vocals: Amy Turany</li>
+							</li>
+						</div> <!-- /.credits -->
+				</div> <!-- /.wale-tape -->
+        		<div class="col-md-6 bliss-into"> 
+        			<img src="images/music/BlissFront.jpg" class="img-responsive center-block">
+					<h1>Bliss/Into Red 7" Single</h1>
+        			<p class="release-date">Ultra Modern/Perspective Records, 1995</p>
+ 					  	<div class="col-md-6 tracklist">
+        				<h2>Tracklist</h2>
+        					<ul>
+        					<li>A. Bliss   4:34</li>
+        					<li>B. Into Red    4:40</li>
+							<ul>
 						</div> <!-- /.tracklist-->
 						<div class="col-md-6 credits">
 						<h2>Credits</h2>
@@ -131,44 +177,62 @@
 							<li>Written by February</li>
 							<li>Produced by February, Richard Werbowenko</li>
 							<li>Recorded and Mixed by Richard Werbowenko at Third Ear Studio, Minneapolis</li>
-							<li>Guitar, Electronics, Sound Sculptures: Damian Neubauer</li>
-							<li>Drums, Percussion, Programming: Todd Jeremia Reubold</li>
-							<li>Bass, Piano, Voice, Bells: Steven J. Saari</li>
-							<li>Vocals, Keyboards: Amy Turany</li>
-							<li>Flute: Julie Kasten</li>
-							<li>Saxophone: Steve Clarke</li>
-							<li>Trombone: Eric Nelson</li>
-							<li>Trumpet: Jay Mote</li>
-							<li>Additional Drum Loops on “Soundtracks”: Richard Werbowenko</li>
-							<li>Strings Written and Arranged on “Peacock” by Luc Readinger</li>
+							<li>Guitar: Damian Neubauer</li>
+							<li>Drums: Todd Jeremia Reubold</li>
+							<li>Bass: Steven Saari</li>
+							<li>Vocals: Amy Turany</li>
 						</div> <!-- /.credits -->
-				</div> <!-- /.even-the-night -->
+				</div> <!-- /.bliss-into -->
 			</div> <!-- /.row -->
-			<div class="col-md-6 even-the-night"> <!-- will hold 2 more columns at col-md-6 inside it for .tracklist and .credits -->
-        			<!-- <img src="images/music/EvenFrontCover.jpg" class="img-responsive center-block"> -->
-					<h1>More to come...stay tuned...</h1>
-
-
+			
+		<!-- Demo Tape -->
+			<div class="row">
+				<div class="col-md-12 demo-tape"> 
+        			<img src="images/music/demoCover.jpg" class="img-responsive center-block">
+					<h1>February, Self-titled Demo Tape</h1>
+        			<p class="release-date">Self-released, 1994</p>
+ 					  	<div class="col-md-6 tracklist">
+        				<h2>Tracklist</h2>
+        					<ul>
+        					<li>1. Sister Upstairs</li>
+        					<li>2. Wet Dresses</li>
+							<li>3. Liquid Eyes</li>
+							<li>4. Two</li>
+							<ul>
+						</div> <!-- /.tracklist-->
+						<div class="col-md-6 credits">
+						<h2>Credits</h2>
+							<ul>
+							<li>Written by February</li>
+							<li>Produced and Engineered by Randy Duerr, Minneapolis</li>
+							<li>Guitar: Damian Neubauer</li>
+							<li>Drums: Todd Reubold</li>
+							<li>Bass: Steven Saari</li>
+							<li>Vocals: Amy Turany</li>
+							</li>
+						</div> <!-- /.credits -->
+				</div> <!-- /.demo-tape -->
+			</div> <!-- /.row -->
 		</div> <!-- /.music-full -->
-   		<div class="col-md-12">
-		  	  		<div class="footer">
-		  	  		<h2>Stay Connected</h2>
-		  	  		<h3>AllFebAllDay</h3>
-			  			<ul>
-						<li><a href="https://www.facebook.com/febband" target="_blank"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="https://twitter.com/thebandfebruary?lang=en" target="_blank"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="https://www.instagram.com/thebandfebruary" target="_blank"><i class="fa fa-instagram"></i></a></li>
-			  			</ul>
-			  			<p class="copyright">Copyright // February // Dancy Trancy Atmospheric Syrup // 2015</p>
-			  		</div> <!-- /.footer -->
-			 	</div> <!-- /.col-md-12 -->
-			</div> <!-- /.row -->
-		</div> <!--/.music-full -->
-	</div> <!-- /.container-fluid -->
-		 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+   		<!-- Footer -->
+		<div class= "row footer">
+		  <div class="col-md-12">
+			<h2>Stay Connected</h2>
+			<h3>AllFebAllDay</h3>
+			  <ul>
+				<li><a href="https://www.facebook.com/febband" target="_blank"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="https://twitter.com/thebandfebruary?lang=en" target="_blank"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="https://www.instagram.com/thebandfebruary" target="_blank"><i class="fa fa-instagram"></i></a></li>
+			  </ul>
+			  <p class="copyright">Copyright // February // Dancy Trancy Atmospheric Syrup // 2016</p>
+		  </div>
+		</div>
+		
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    	<!-- Include all compiled plugins (below), or include individual files as needed -->
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	</div> <!-- /.container-fluid -->
   </body>
 </html>

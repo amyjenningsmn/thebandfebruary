@@ -7,7 +7,9 @@
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 		<meta name="Description" content= "The latest music, news and releases from Minneapolis-based band February">
 		<meta name="Keywords" content="February Band Minneapolis">
-		<!-- This will be an icon for the browser bar <link rel=icon href="../favicon.ico">  -->
+
+		<!-- favicon -->
+		<link rel="icon" href="images/favicon.ico">
 
 		<title>February : The Band </title>
 
@@ -15,21 +17,11 @@
 	  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 	  	<!--This link is for my googlefonts -->
-		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-
 		<link href='https://fonts.googleapis.com/css?family=Quicksand:400,300,700' rel='stylesheet' type='text/css'>
 
 		<!-- Bootstrap -->
     	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
-    	<!-- Do I need reset with bootstrap? 
-		<link rel="stylesheet" type="text/css" href="style/reset.css"> -->
-
-		
-		<!-- I probabably don't need responsive with bootstrap either <link rel="stylesheet" type="text/css" href="style/responsive.css"> -->
-
-
-		<!-- Should my custom CSS always be last? -->
 		<link rel="stylesheet" type="text/css" href="style/style.css">
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -38,9 +30,9 @@
       	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     	<![endif]-->
-	</head>
+</head>
 	<body>
-		<div class="container-fluid"> <!--I did container fluid instead of container because I wanted it to go to fill the screen. -->
+	  <div class="container-fluid"> 
 	  	
 		<!-- Bootstrap Navbar-->
 		<nav class="navbar navbar-default">
@@ -59,34 +51,12 @@
 			  	 <li><a href="news.html">News</a></li>
 			  	 <li><a href="music.html">Music</a></li>
 			  	 <li><a href="video.html">Video</a></li>
-			  	 <li><a href="feblife.html">FebLife</a></li>
+			  	 <li><a href="gallery.html">Gallery</a></li>
 			  	 <li><a href="connect.html">Connect</a></li>
 			  	</ul>
 			 </div><!--/.nav-collapse -->
 		   </div><!--/.container-fluid -->
 		</nav>
-		<!--nav-toggle won't work without plugins at end of html -->
-		<!-- End of Bootstrap Navbar-->
-
-<!-- This is my old navbar code
-			<div class="logo"> 
-				<a href="index.html"><img src="images/februarylogopng.png" alt="February"></a>
-			</div> 
-			
-			<div class="nav-toggle">
-				<i class="fa fa-bars"></i>
-			</div>
-			<nav class="nav-main">
-				<ul>				
-					<li><a href="#">Present</a></li>
-					<li><a href="#">Past</a></li> 
-					<li><a href="#">Music</a></li>
-					<li><a href="#">Video</a></li>
-					<li><a href="#">Store</a></li>			
-					<li><a href="#">Contact</a></li>
-				</ul>
-			</nav>
-		</div> -->
 
 		<!-- Bootstrap Jumbotron-->
 		<div class="jumbotron">
@@ -96,21 +66,7 @@
 			<h2>Re-Issue // 2016 </h2>
 			<p><a role="button" href="music.html" class="btn btn-lg btn-primary">more music</a></p>
 		</div>
-	
-
-
-	<!-- This is the old code for what would be my jumbotron. I had it as a banner. 
-	<div class="banner"> This is where an image will be added in CSS, water image for Tessa
-		<div class= "container">
-			<h1>Tick Tock Tomorrow</h1>
-			<h2>'Tomorrow is Today' Re-Issue / Saint Marie Records / 2016</h2>
-				<p>February's 1997 final recording available soon on REMASTERED CD and VINYL!</p>
-				<a href="#"><button>Learn More</button></a>
-			</div>
-		</div> -->
-
-	<!-- Headline and Background Color : Bootstrap 2 Boxes -->
-	<div class="row headline">
+		<div class="row headline">
 		<div class="col-md-12">
 			<h2>Don't Call it a Comeback</h2>
 			<p>When February broke up in 1998, it was with heavy hearts that we said goodbye.<br>
@@ -120,77 +76,40 @@
 			xoxoxo - feb</p>
 			<p><a role="button" href="news.html" class="btn btn-lg btn-primary">more news</a></p>
 	 	</div>
-	</div>
-	<!-- this is the old content of home page 
-	<section class="content">
-		<div class="container"> 
-			<main>
-				<h2>Don't Call it a Comeback</h2>
-		    	<p>When February broke up in 1998 it was with heavy hearts that we said goodbye.</p>
-				<p>Life brought us all sorts of new adventures and we've got glitter-filled memories of our time making music with you all.</p>
-				<p>So when St. Marie Records came calling a few months back, we were over the moon to get to share our songs with you again. </p>
-				<o>It got us thinking about old times and new times ahead. We're glad you're here.</p><p>xoxoxo - feb</p>
-			</main>
-			<! Here's the code Tessa had when she had an image on the side:
-			<aside>
-				<img src="images/tower.jpg">
-			</aside> 
-		</div>.container again  
-	</section> -->
-
+		</div>
+	
 	<!-- Nav Links : Bootstrap 4 Boxes -->
 	
-      <div class="row links">
-         <!-- <div class="container-fluid"> -->
-        <div class="col-md-4">
+      	<div class="row links">
+          <div class="col-md-4">
           <div class="video">
           	<img src="images/febRed.jpg" class="img-responsive img-rounded center-block" alt="February in red lights.">
           	<h3>Video</h3>
           	<p>Watch and listen to old tracks, strange VHS footage, random fashion shows, endless practices, garage parties, lovely theatres. Rawk! </p>
           	<a role="button" href="video.html" class="btn btn-sm btn-primary">more video</a></p>
-         </div>
-    	</div>
-        <div class="col-md-4">
-		 <div class="feblife">
-		 <img src="images/febVan.png" class="img-responsive img-rounded center-block" alt="February in front of the old van.">
-		  <h3>FebLife</h3>
+          </div>
+    	  </div>
+         <div class="col-md-4">
+		 <div class="gallery"> 
+		  <img src="images/febVan.png" class="img-responsive img-rounded center-block" alt="February in front of the old van.">
+		  <h3>Gallery</h3>
           <p>Who we are, who we were. #Lookinggoodkidsofthepast #actualphotographsmadeoffilm #postcards #febdollars #wigs #startrek #crushable #dreamers #awkward #goodtimes</p>
-          <a role="button" href="feblife.html" class="btn btn-sm btn-primary">more feblife</a></p>
+          <a role="button" href="gallery.html" class="btn btn-sm btn-primary">more gallery</a></p>
          </div>
-        </div>
-        <div class="col-md-4">
+         </div>
+          <div class="col-md-4">
          <div class="connect">
           <img src="images/febTunnel.png" class="img-responsive img-rounded center-block" alt="February in white future tunnel.">
 		  <h3>Connect</h3>
           <p>You wanna ask us something? Like, "What's the meaning of life?" Well, duh, obviously candy. Or you could ask us something else. You could also get your social media on. There are links.</p>
           <a role="button" href="connect.html" class="btn btn-sm btn-primary">more connect</a></p>
          </div>
-        </div>
-      </div>
+         </div>
+      	</div>
      
       <!-- End of Bootstrap 4 Boxes -->
-<!-- old boxes 
-	<section class="links">
-		<div class="container">
-			<div class="box">
-				<h2>Music</h3>
-				<p>Streaming tracks from 'Even the Night Can't Tell you From a Star', Warren Defever's 'Wale Tape', 'Bliss/Into Red' 7" and 'Feb Demo'. Yass!</p>
-				<a href="#"><button>Listen</button></a>
-			</div> 
-			<div class="box">
-				<h2>Video</h2>
-				<p>This is pre-YouTube baby. I mean we are talking VHS to DVD to online. "What are you even talking about," said the children of today!?!?</p>
-				<a href="#"><button>Watch</button></a>
-			</div><
-			<div class="box">
-				<h2>Archives</h2>
-				<p>Posters, FebDollars, Postcards, Drawings, Pics, Tricks, Sticks, Sweet Guitar licks.</p>
-				<a href="#"><button>Explore</button></a>
-			</div>
-		</div>
-	</section> -->
-
-	<!-- Footer: 1 bootstrap box -->
+	
+	<!-- Footer -->
 		<div class= "row footer">
 		  <div class="col-md-12">
 			<h2>Stay Connected</h2>
@@ -200,30 +119,14 @@
 				<li><a href="https://twitter.com/thebandfebruary?lang=en" target="_blank"><i class="fa fa-twitter"></i></a></li>
 				<li><a href="https://www.instagram.com/thebandfebruary" target="_blank"><i class="fa fa-instagram"></i></a></li>
 			  </ul>
-			  <p class="copyright">Copyright // February // Dancy Trancy Atmospheric Syrup // 2015</p>
+			  <p class="copyright">Copyright // February // Dancy Trancy Atmospheric Syrup // 2016</p>
 		  </div>
 		</div>
-</div>
-	<!-- old footer 
-	<footer>
-		<div class="container">
-			<h2>Stay Connected</h2>
-			<h3>Give us a holla if you're into that sort of thing.</h3>
-			<ul>
-				<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-				<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-				<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-			</ul>
-			<p class="copyright">Copyright // February // Dancy Trancy Atmospheric Syrup // 2015</p><!Can't remember semantically what Williamson said to do, but I don't think he called it a p.
-		</div>
-	</footer> -->
-
-
-	 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    	<!-- Include all compiled plugins (below), or include individual files as needed -->
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	</div> <!-- /.container-fluid -->
   </body>
 </html>
-
