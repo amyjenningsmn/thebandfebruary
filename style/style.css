@@ -69,27 +69,6 @@ body {
 	border-color: #f990ef; /* light pink */ 
 }
 
-.jumbotron {
-	height: 550px;
-	width: 100%;
-    background: url(../images/FebTomCrop.jpg) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover; 
-    text-align: center;
-    color: #fff;
-    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-             0px 8px 13px rgba(0,0,0,0.1),
-             0px 18px 23px rgba(0,0,0,0.1);
-  	margin: 0px;
-}
-
-.jumbotron h1 h2 h3 p {
-	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-             0px 8px 13px rgba(0,0,0,0.1),
-             0px 18px 23px rgba(0,0,0,0.1);
-}
 
 h1 {
 	text-transform: uppercase;
@@ -174,6 +153,36 @@ h3 {
 
 /* index.html */
 
+.jumbotron {
+	height: 550px;
+	width: 100%;
+    background: url(../images/FebTomCrop.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover; 
+    text-align: center;
+    color: #fff;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+  	margin: 0px;
+}
+
+.jumbotron h1 h2 h3 p {
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.jumbotron a {
+	text-decoration: none;
+	color: #fff;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+
 .headline {
 	text-align: center;
 	background: #B8DBFF; /* light blue */
@@ -206,6 +215,7 @@ h3 {
 
 .blog {
 	background: #FFE5FF; /* very light pink */
+
 }
 
 .blog h1 {
@@ -224,6 +234,16 @@ h3 {
 	padding-left: 35px;
 	padding-right: 35px;
 }
+
+.blog a {
+	color: #FF33EC; /* deep pink */
+}
+
+.blog img {
+	padding-bottom: 15px;
+}
+
+
 
 .figure-caption {
 	padding-top: 10px;
