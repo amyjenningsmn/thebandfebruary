@@ -213,6 +213,15 @@ h3 {
 
 /* news.html */
 
+.social-media  {
+	color: #FF33EC; /* deep pink */
+	background-color: #FFE5FF; /* very light pink */
+}
+.referral {
+	font-size: 1.2em;
+	background-color: #FFE5FF;
+}
+
 .blog {
 	background: #FFE5FF; /* very light pink */
 
@@ -220,12 +229,19 @@ h3 {
 
 .blog h1 {
 	text-decoration: underline;
+	text-transform: none;
 }
 
 .blog h2 {
 	font-size: 1.3em;
 	margin-top: 0px;
 	margin-bottom: 20px;
+}
+
+.blog h3 {
+	font-size: 1.5em;
+	color: #FF33EC; /* deep pink */
+
 }
 
 .blog p {
@@ -243,7 +259,10 @@ h3 {
 	padding-bottom: 15px;
 }
 
-
+.blog-title h1 {
+	color: #FF33EC; /* deep pink */
+	text-decoration: none;
+}
 
 .figure-caption {
 	padding-top: 10px;
